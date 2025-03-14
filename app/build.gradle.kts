@@ -57,10 +57,8 @@ android {
     }
 
     testOptions {
-        unitTests {
-            all {
-                enabled = false
-            }
+        unitTests.all {
+            isEnabled = false
         }
     }
 }
