@@ -57,8 +57,8 @@ android {
     }
 
     testOptions {
-        unitTests.all {
-            isEnabled = false
+        unitTests {
+            isIncludeAndroidResources = true
         }
     }
 }
